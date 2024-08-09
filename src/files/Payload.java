@@ -55,4 +55,19 @@ public class Payload {
 				+ "}";
 		return payload;
 	}
+	
+	public static String createIssue(String summary) {
+		String payload = "{\r\n"
+				+ "    \"fields\": {\r\n"
+				+ "        \"project\": {\r\n"
+				+ "            \"key\": \"KAN\"\r\n"
+				+ "        },\r\n"
+				+ "        \"summary\": \""+summary+"\",\r\n"
+				+ "        \"issuetype\": {\r\n"
+				+ "            \"name\": \"Bug\"\r\n"
+				+ "        }\r\n"
+				+ "    }\r\n"
+				+ "}";
+		return payload;
+	}
 }
