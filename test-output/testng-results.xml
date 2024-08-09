@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-09T15:59:41 IST" name="Default suite" finished-at="2024-08-09T15:59:43 IST" duration-ms="1600">
+  <suite started-at="2024-08-09T18:40:05 IST" name="Default suite" finished-at="2024-08-09T18:40:10 IST" duration-ms="5217">
     <groups>
     </groups>
-    <test started-at="2024-08-09T15:59:41 IST" name="Default test" finished-at="2024-08-09T15:59:43 IST" duration-ms="1600">
-      <class name="SumValidation">
-        <test-method signature="sumOfCourses()[pri:0, instance:SumValidation@12468a38]" started-at="2024-08-09T15:59:41 IST" name="sumOfCourses" finished-at="2024-08-09T15:59:43 IST" duration-ms="1538" status="PASS">
+    <test started-at="2024-08-09T18:40:05 IST" name="Default test" finished-at="2024-08-09T18:40:10 IST" duration-ms="5217">
+      <class name="files.DynamicJson">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:files.DynamicJson@72d1ad2e]" started-at="2024-08-09T18:40:05 IST" name="addBook" data-provider="BooksData" finished-at="2024-08-09T18:40:09 IST" duration-ms="4030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[356]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sumOfCourses -->
-      </class> <!-- SumValidation -->
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:files.DynamicJson@72d1ad2e]" started-at="2024-08-09T18:40:09 IST" name="addBook" data-provider="BooksData" finished-at="2024-08-09T18:40:10 IST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:files.DynamicJson@72d1ad2e]" started-at="2024-08-09T18:40:10 IST" name="addBook" data-provider="BooksData" finished-at="2024-08-09T18:40:10 IST" duration-ms="555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kjl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- files.DynamicJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
